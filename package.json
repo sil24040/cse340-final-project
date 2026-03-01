@@ -1,0 +1,19 @@
+{
+  "name": "cse340-final-project",
+  "version": "1.0.0",
+  "description": "CSE 340 Final Project - Used Car Dealership Web Application",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "pg": "^8.11.3"
+  }
+}
